@@ -303,18 +303,7 @@ Business Recommendations
 
 ```bash
 git clone https://github.com/Emmy-Analytics/alfamart-pos-data-quality-analysis.git
-```
 
-### Open the project
-
-```bash
-cd alfamart-pos-data-quality-analysis
-```
-
-### Install dependencies
-
-```bash
-pip install -r requirements.txt
 ```
 
 ### Run the notebook
@@ -322,7 +311,7 @@ pip install -r requirements.txt
 Open:
 
 ```text
-Alfamart_POS_Data_Quality_Analysis.ipynb
+POS TRANSACTION DATA ANALYSIS - ALFAMART STUDY CASE.ipynb
 ```
 
 using Jupyter Notebook, JupyterLab, or VS Code.

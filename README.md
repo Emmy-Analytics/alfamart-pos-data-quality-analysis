@@ -22,7 +22,6 @@ The analysis uses POS transaction data to investigate potential data quality pro
 - Cashier transaction accuracy
 - Payment data consistency
 - POS reporting reliability
-- Transaction validation
 
 The project combines transaction data with store and product master data to validate business rules and identify abnormal transaction patterns.
 
@@ -221,25 +220,6 @@ before store opening.
 
 ---
 
-## 📁 Project Structure
-
-```text
-alfamart-pos-data-quality-analysis/
-│
-├── data/
-│   └── README.md
-│
-├── images/
-│   └── .gitkeep
-│
-├── Alfamart_POS_Data_Quality_Analysis.ipynb
-├── README.md
-├── requirements.txt
-└── .gitignore
-```
-
----
-
 ## 📓 Notebook
 
 The complete analysis is available in:
@@ -248,14 +228,9 @@ The complete analysis is available in:
 
 The notebook contains:
 
-- Data loading
 - Data understanding
 - Data preparation
-- Data cleaning
-- Data validation
 - Exploratory Data Analysis
-- Business analysis
-- Key findings
 - Business recommendations
 - Conclusion
 
@@ -274,8 +249,6 @@ Data Cleaning & Validation
       ↓
 Exploratory Data Analysis
       ↓
-Business Problem Analysis
-      ↓
 Key Findings
       ↓
 Business Recommendations
@@ -288,9 +261,7 @@ Business Recommendations
 - Python
 - Pandas
 - NumPy
-- Matplotlib
 - Seaborn
-- SciPy
 - Jupyter Notebook
 - VS Code
 - Git & GitHub
@@ -311,7 +282,7 @@ git clone https://github.com/Emmy-Analytics/alfamart-pos-data-quality-analysis.g
 Open:
 
 ```text
-POS TRANSACTION DATA ANALYSIS - ALFAMART STUDY CASE.ipynb
+Alfamart_POS_Data_Quality_Analysis.ipynb
 ```
 
 using Jupyter Notebook, JupyterLab, or VS Code.
@@ -374,7 +345,6 @@ Currently learning:
 
 - 🐍 Python
 - 🗄️ SQL
-- 📊 Excel
 - 📈 Business Analytics
 - 📉 Data Visualization
 - 🧹 Data Cleaning & EDA
